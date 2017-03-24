@@ -32,7 +32,7 @@ int fib(int limit)
 int main()
 {
 	// Call our function and output the results
-	cout << fib(10) << endl;
+	cout << fib(1000) << endl;
 	// Everything worked so return 0
 	return 0;
 }
