@@ -13,7 +13,8 @@ int fib(int limit)
   int a = 0; int b = 1;
   int i = 0;
   int c = 0;
-
+  int variable = 42;	
+// TYPE <NAME> = 42
   // Create a loop
   while(i < limit)
   {
@@ -32,7 +33,7 @@ int fib(int limit)
 int main()
 {
 	// Call our function and output the results
-	cout << fib(10) << endl;
+	cout << fib(8) << endl;
 	// Everything worked so return 0
 	return 0;
 }
