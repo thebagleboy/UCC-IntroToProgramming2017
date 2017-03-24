@@ -17,8 +17,9 @@ int fib(int limit)
 
 
   // Create a loop
-  while(i < limit)
+  while(i < limit && 1 == 1)
   {
+    o our work
     c = a + b;
     a = b;
     b = c;
@@ -33,7 +34,7 @@ int fib(int limit)
 int main()
 {
 	// Call our function and output the results
-	cout << fib(1000) << endl;
+	cout << fib(10) << endl;
 	// Everything worked so return 0
 	return 0;
 }
